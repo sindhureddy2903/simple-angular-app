@@ -9,7 +9,7 @@ node {
      nodejs(nodeJSInstallationName: 'nodejs') {
        sh 'npm install --only=dev'
        sh 'npm test'
-       Sh 'npm e2e'
+       sh 'ng e2e'
      }
    }
 }
